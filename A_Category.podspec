@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   #s.ios.deployment_target = '8.0'
 
-  s.source_files = 'A_Category/Classes/**/*'
+  s.source_files = 'A_Category/Classes/*.{h,m}'
   s.platform     = :ios, '9.0'
   # s.resource_bundles = {
   #   'A_Category' => ['A_Category/Assets/*.png']
